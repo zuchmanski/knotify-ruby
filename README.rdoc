@@ -1,0 +1,11 @@
+== KNotify for Ruby.
+
+This is snippet how you use knotify in ruby using "kdialog".
+
+Install:
+  git clone git://github.com/sebcioz/knotify-ruby.git
+
+Using:
+  require 'knotify-ruby'
+  KNotify.notify("title", "text", "time - optional, default 8s")
+
